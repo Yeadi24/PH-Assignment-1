@@ -16,7 +16,7 @@
   padding: 70px 0px 60px 70px;
 }
 .intro p {
-  color: #006a50;
+  color: rgba(37, 34, 34, 0.653);
   font-size: 24px;
 }
 .intro h1 {
@@ -47,6 +47,7 @@
   margin-bottom: 50px;
 }
 /* Cards css */
+
 .vision-cards {
   display: flex;
   justify-content: space-between;
@@ -108,7 +109,7 @@
   margin: 0px 60px 70px 60px;
 }
 .quote {
-  background-image: url("/assets/quote-bg.png");
+  background-image: url("./assets/quote-bg.png");
   background-repeat: no-repeat;
   background-position: top left;
   border: 2px solid rgba(0, 0, 0, 0.322);
