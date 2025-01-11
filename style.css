@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-intro {
+  width: 90vw;
+  background-color: #c6e4d6;
+  margin: 0px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: row;
+}
+.intro {
+  padding: 70px 0px 60px 70px;
+}
+.intro p {
+  color: #006a50;
+  font-size: 24px;
+}
+.intro h1 {
+  font-size: 55px;
+}
+.intro button {
+  font-size: 20px;
+  background-color: #006a50;
+  color: white;
+  height: 60px;
+  width: 250px;
+  border-radius: 9px;
+}
+.btn:hover {
+  background-color: red;
+}
+.intro-photo {
+  padding: 40px;
+}
+.head {
+  font-size: 50px;
+}
+.para {
+  font-weight: 0;
+  margin-bottom: 50px;
+}
+/* Cards css */
+.vision-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.one {
+  background-color: #548ff566;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.one > button {
+  background-color: #5490f5;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+.two {
+  background-color: #c6e4d6;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.two > button {
+  background-color: #09a15c;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+.three {
+  background-color: #f7ebcf;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.three > button {
+  background-color: #ffc239;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+.edit1 {
+  padding: 0px 45px 70px 70px;
+}
+.quote {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  border: 2px solid rgba(0, 0, 0, 0.322);
+  border-radius: 10px;
+}
+quote-container {
+  padding: 0px 45px 70px 70px;
+}
+.title {
+  font-weight: 300;
+}
+/* News Cards */
+.news-card-container {
+  padding: 0px 70px;
+}
+.news-card1 {
+  display: flex;
+  justify-content: row;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #f1f1f3;
+}
+.news-card1 img {
+  border-radius: 10px;
+}
+.news1 {
+  margin-left: 40px;
+}
+.news1 h2 {
+  font-size: 32px;
+}
+.news1 p {
+  color: rgba(31, 30, 30, 0.694);
+}
+.news1 button {
+  background-color: #006a50;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.recent {
+  font-size: 36px;
+}
+.recent-para {
+  color: rgba(31, 30, 30, 0.694);
+  margin-bottom: 40px;
+}
+.news-card2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: row;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #f1f1f3;
+  margin-top: 40px;
+}
+.news-card2 img {
+  border-radius: 10px;
+}
+.news2 {
+  margin-left: 40px;
+}
+.news2 h2 {
+  font-size: 32px;
+}
+.news2 p {
+  color: rgba(31, 30, 30, 0.694);
+}
+.news2 button {
+  background-color: #006a50;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
