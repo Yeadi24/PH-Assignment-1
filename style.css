@@ -242,3 +242,51 @@
   margin-left: 0px;
   font-size: 18px;
 }
+.donation-title {
+  text-align: center;
+  font-size: 50px;
+}
+.donation-subtitle {
+  text-align: center;
+}
+.donation {
+  padding: 0px 200px;
+}
+.money {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.amount {
+  width: 250px;
+  height: 130px;
+  font-size: 30px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+.meem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.two-hundred {
+  background-color: #c6e4d6;
+}
+.other-amount {
+  width: 1050px;
+  height: 55px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.489);
+  margin-bottom: 30px;
+}
+.donate {
+  width: 140px;
+  height: 60px;
+  background-color: #006a50;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
